@@ -1,0 +1,78 @@
+.container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f8f8fd;
+  }
+  .text1{
+    color: #229ed9;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .static {
+    font-size: x-large;
+  }
+  .dynamic {
+    color: #f00 ;
+    font-weight: 500;
+    font-size: xx-large;
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10%;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .youtube {
+    font-size: 40px;
+    color: #ff0000;
+    cursor: pointer;
+  }
+  
+  .instagram {
+    font-size: 40px;
+    color: #fb3958;
+    cursor: pointer;
+  }
+  .telegram {
+    font-size: 40px;
+    color: #229ed9;
+    cursor: pointer;
+  }
+  .item.i {
+    cursor: pointer;
+  }
+  @media (max-width: 990.99px) {
+    .static{
+      font-size: 1.4rem;
+    }
+    .dynamic{
+      font-size: 1.6rem;
+    }
+    .youtube {
+      font-size: 30px;
+    }
+    
+    .instagram {
+      font-size: 30px;
+    }
+    .telegram {
+      font-size: 30px;
+    }
+  }
+  

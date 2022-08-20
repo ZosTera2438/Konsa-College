@@ -1,0 +1,91 @@
+.container {
+    z-index: 11;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .KonsaCollege {
+    cursor: pointer;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1%;
+  }
+  .joinButton {
+    background-color: #58c6c9;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 18px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 525;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .options {
+    margin: 10px;
+    font-weight: 550;
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .toggleMenu {
+    position: fixed;
+    width: 250px;
+    height: 90vh;
+    right: 0;
+    top: 67px;
+    background-color: #eaf6f2;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 0 ;
+    box-sizing: border-box;
+    overflow: auto;
+  transition: all 1s ease;
+  
+  }
+  .toggleOptions {
+    height: 50px;
+    padding: 20px;
+    font-size: large;
+    color: #236c6c;
+  }
+  
+  @media (min-width: 901px) {
+    .toggleBar {
+      display: none;
+    }
+    .toggleCross{
+      display:none;
+    }
+    .toggleMenu {
+      display: none;
+    }
+  }
+  @media (max-width: 990.99px) {
+    .container {
+      justify-content: space-between;
+    }
+    .menu {
+      display: none;
+    }
+  }
+  
