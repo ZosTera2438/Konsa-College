@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Intro from "../components/Intro";
+import Intro from "../components/Intro.js";
 // import Review from "../components/Review";
 // import Workflow from "../components/Workflow";
-import SocialLinks from "../components/SocialLinks";
+import SocialLinks from "../components/SocialLinks.js";
 
 // const prefix = ' ' || process.env.NEXT_PUBLIC_BASIC_PATH;
 
