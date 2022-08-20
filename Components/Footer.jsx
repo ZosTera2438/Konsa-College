@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={styles.container}>
         <div className={styles.brand}>
           <Image
-            className={styles.KonsaCollege}
+            // className={styles.KonsaCollege}
             src={"/KonsaCollege.png"}
             alt=""
             height="60px"

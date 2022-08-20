@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className={styles.container}>
         <Link href="/">
           <Image
-            className={styles.KonsaCollege}
+            // className={styles.KonsaCollege}
             src={"/KonsaCollege.png"}
             alt=""
             height="60px"
