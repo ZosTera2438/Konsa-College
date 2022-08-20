@@ -4,7 +4,7 @@ import Intro from "../components/Intro";
 // import Workflow from "../components/Workflow";
 import SocialLinks from "../components/SocialLinks";
 
-// const prefix = ' ' || process.env.NEXT_PUBLIC_BASIC_PATH;
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
          <link
           rel="icon"
           type="image/png"
-          href={"/kclogo.png"}
+          href={prefix+"/kclogo.png"}
         />
 
       </Head>

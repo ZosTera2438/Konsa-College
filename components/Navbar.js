@@ -4,8 +4,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-// const prefix = " " || process.env.NEXT_PUBLIC_BASIC_PATH;
-
 const Navbar = () => {
   const [open,setOpen] = useState(false);
   const toggle = () => setOpen(!open);
@@ -15,7 +13,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             // className={styles.KonsaCollege}
-            src={"/KonsaCollege.png"}
+            src="/KonsaCollege.png"
             alt=""
             height="60px"
             width="150px"

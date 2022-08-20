@@ -5,8 +5,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-// const prefix = "" || process.env.NEXT_PUBLIC_PATH_URL;
-
 const Intro = () => {
   const { text } = useTypewriter({
     words: [
@@ -45,7 +43,7 @@ const Intro = () => {
         </div>
         <div className={styles.introGif}>
           <Image
-            src={"/introGif.gif"}
+            src="/introGif.gif"
             alt=""
             height={"500"}
             width={"570"}

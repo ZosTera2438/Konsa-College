@@ -3,8 +3,6 @@ import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 // import Link from "next/link";
 
-// const prefix = " " || process.env.NEXT_PUBLIC_BASIC_PATH;
-
 const Footer = () => {
   return (
     <>
@@ -12,7 +10,7 @@ const Footer = () => {
         <div className={styles.brand}>
           <Image
             // className={styles.KonsaCollege}
-            src={"/KonsaCollege.png"}
+            src="/KonsaCollege.png"
             alt=""
             height="60px"
             width="150px"
