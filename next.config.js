@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: 'akamai',
-    path: '',
+    path: '/Konsa-College',
   },
   basePath:'/Konsa-College',
   assetPrefix:'/Konsa-College'
