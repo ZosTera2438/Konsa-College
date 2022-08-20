@@ -39,4 +39,3 @@ next-env.d.ts
 .env
 /README.md
 /yarn.lock
-.eslintrc.json
