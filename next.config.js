@@ -5,7 +5,9 @@ const nextConfig = {
   images: {
     loader: 'akamai',
     path: '',
-  }
+  },
+  basePath:'/Konsa-College',
+  assetPrefix:'/Konsa-College'
 }
 
 module.exports = nextConfig
