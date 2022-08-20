@@ -37,7 +37,6 @@ export default function Home() {
         <link rel="canonical" href="zostera2438.github.io/" /> */}
          <link
           rel="icon"
-          type="image/png"
           href={prefix+"/kclogo.png"}
         />
 
